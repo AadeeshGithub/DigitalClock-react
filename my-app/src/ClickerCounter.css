@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: green;
+}

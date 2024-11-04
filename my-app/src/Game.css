@@ -1,0 +1,55 @@
+/* Main game layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+}
+body {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background: hotpink;
+  border: 2px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.status {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
